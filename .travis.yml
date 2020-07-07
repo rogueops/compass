@@ -1,2 +1,2 @@
 language: python
-script: pwdGen.py
+script: random || strings
