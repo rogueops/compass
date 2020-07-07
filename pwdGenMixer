@@ -1,0 +1,28 @@
+'''
+ComPass
+Python Complex Password Generator
+Created By Nicore
+
+GNU License 2020
+Built 07-03-2020
+'''
+import random 
+import string
+
+#Ask password length wanted
+size = int(input("Enter length of wanted password: "))
+
+#Ask how many times to randmize
+mix = int(input("How many times to randmize characters? "))
+
+#Creating a combined list
+bits = list(string.printable)
+
+#shuffling list per user requested mixes
+count = 0
+if count <= mix:
+    random.shuffle(bits)
+    count += 1
+
+#Print new password
+print("\nNew Password:",''.join(random.sample(bits,size )))
