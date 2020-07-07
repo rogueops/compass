@@ -1,5 +1,7 @@
 # Python Password Generator
 
+![Build Status](https://travis-ci.org/klugjo/hexo-autolinker.svg?branch=master)
+
 Python password generator that includes a mix of the list used each time the program is executed.
 There are two versions of the python password generator:
 
