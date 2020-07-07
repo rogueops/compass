@@ -1,2 +1,2 @@
-language: java
-script: pytest
+language: python
+script: pwdGen.py
